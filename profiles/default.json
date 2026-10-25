@@ -1,0 +1,52 @@
+// Default profile. Run "WheelBridge monitor" to find your device name and axis numbers,
+// then copy this file (e.g. profiles/logitech-g29.json) and edit it.
+{
+  "name": "Default",
+  "updateRateHz": 500,
+
+  "steering": {
+    "device": "Wheel",           // part of the device name shown by "WheelBridge list"
+    "axis": 0,
+    "invert": false,
+    "wheelRotationDegrees": 900, // rotation set in your wheel driver
+    "steeringRangeDegrees": 270, // lock-to-lock rotation that gives full in-game steering
+    "deadzone": 0.0,
+    "antiDeadzone": 0.0,         // raise (e.g. 0.1) if small wheel movements do nothing in game
+    "linearity": 1.0
+  },
+
+  "throttle": {
+    "device": "Wheel",
+    "axis": 1,
+    "rawMin": 32767,             // value when released
+    "rawMax": -32768,            // value when fully pressed
+    "invert": false,
+    "deadzone": 0.02,
+    "saturation": 0.0,
+    "gamma": 1.0
+  },
+
+  "brake": {
+    "device": "Wheel",
+    "axis": 2,
+    "rawMin": 32767,
+    "rawMax": -32768,
+    "invert": false,
+    "deadzone": 0.02,
+    "saturation": 0.0,
+    "gamma": 1.0
+  },
+
+  "buttons": [
+    { "device": "Wheel", "button": 0, "target": "A" },
+    { "device": "Wheel", "button": 1, "target": "B" },
+    { "device": "Wheel", "button": 2, "target": "X" },
+    { "device": "Wheel", "button": 3, "target": "Y" },
+    { "device": "Wheel", "button": 4, "target": "RightShoulder" },
+    { "device": "Wheel", "button": 5, "target": "LeftShoulder" },
+    { "device": "Wheel", "button": 6, "target": "Back" },
+    { "device": "Wheel", "button": 7, "target": "Start" }
+  ],
+
+  "dPad": { "device": "Wheel", "hat": 0 }
+}

@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WheelBridge.Core", "src\WheelBridge.Core\WheelBridge.Core.csproj", "{4C48A9E6-BB2E-5323-A188-12C5988CB475}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WheelBridge", "src\WheelBridge\WheelBridge.csproj", "{4CF42C2D-98EC-5CD5-B583-15FA437ECE63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WheelBridge.Core.Tests", "tests\WheelBridge.Core.Tests\WheelBridge.Core.Tests.csproj", "{64DEF309-4CD4-52BD-AA8B-799D7A83D776}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C48A9E6-BB2E-5323-A188-12C5988CB475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C48A9E6-BB2E-5323-A188-12C5988CB475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C48A9E6-BB2E-5323-A188-12C5988CB475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C48A9E6-BB2E-5323-A188-12C5988CB475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF42C2D-98EC-5CD5-B583-15FA437ECE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF42C2D-98EC-5CD5-B583-15FA437ECE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF42C2D-98EC-5CD5-B583-15FA437ECE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF42C2D-98EC-5CD5-B583-15FA437ECE63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64DEF309-4CD4-52BD-AA8B-799D7A83D776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DEF309-4CD4-52BD-AA8B-799D7A83D776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DEF309-4CD4-52BD-AA8B-799D7A83D776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DEF309-4CD4-52BD-AA8B-799D7A83D776}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
